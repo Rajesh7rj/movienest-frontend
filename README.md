@@ -64,3 +64,23 @@ Make sure the backend is running. Example endpoints:
 | GET    | `/movies/get-movie-by-id/:id`        | Get movie details by ID |
 | GET    | `/movies/get-movies?page=1&limit=10` | Paginated movie list    |
 
+
+# 🚀 Deployment
+
+Deployed live at: https://movienest-frontend.vercel.app
+You can deploy your own version using:
+```
+# Build the app
+npm run build
+
+# Start in production
+npm start
+```
+
+Or connect the repo to Vercel for automatic CI/CD deployment.
+
+# 🧾 License
+MIT License. Free for personal and commercial use.
+
+
+
