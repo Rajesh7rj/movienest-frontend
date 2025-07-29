@@ -44,7 +44,7 @@ export default function RootLayout({
       <body className={`relative min-h-screen bg-[#093545]`}>
         <Toaster position="top-right" toastOptions={{ duration: 3000 }} />
 
-        <main className="relative z-10 pb-24 sm:pb-32 lg:pb-40">{children}</main>
+        <main className="pb-8">{children}</main>
 
         <footer>
         <img
