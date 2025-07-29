@@ -79,6 +79,10 @@ npm start
 
 Or connect the repo to Vercel for automatic CI/CD deployment.
 
+# Credentials 
+email :- admin@gmail.com
+password :- Admin@12345
+
 # 🧾 License
 MIT License. Free for personal and commercial use.
 
