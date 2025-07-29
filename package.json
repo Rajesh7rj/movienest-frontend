@@ -1,0 +1,40 @@
+{
+  "name": "movienest-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@auth/core": "^0.40.0",
+    "@hookform/resolvers": "^5.2.0",
+    "autoprefixer": "^10.4.19",
+    "axios": "^1.11.0",
+    "clsx": "^2.1.1",
+    "crypto-js": "^4.2.0",
+    "graphql": "^16.8.1",
+    "graphql-request": "^7.1.2",
+    "next": "latest",
+    "next-auth": "beta",
+    "postcss": "^8.5.3",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-hook-form": "^7.61.1",
+    "react-hot-toast": "^2.5.2",
+    "zod": "^4.0.10"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.14",
+    "@types/crypto-js": "^4.2.2",
+    "@types/node": "^24.1.0",
+    "@types/react": "19.1.8",
+    "@types/react-dom": "19.1.6",
+    "eslint": "^9.24.0",
+    "eslint-config-next": "^15.2.5",
+    "tailwindcss": "^4.0.14",
+    "typescript": "^5.4.5"
+  }
+}
